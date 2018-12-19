@@ -44,7 +44,7 @@ img {
 }
 
 
-.img{
+.img {
   border-radius: 10px;
   margin-bottom: 15px;
   max-width: 100%;
@@ -67,7 +67,8 @@ img {
 
 
 
-.readMore1{
+
+.readMore1 {
   border: 3px solid black;
   border-radius: 25px;
   padding: 10px;
@@ -81,9 +82,9 @@ img {
 }
 
 
-.readMore2{
+.readMore2 {
   border: 3px solid black;
-  border-radius: 30px;
+  border-radius: 25px;
   padding: 10px;
   margin-top: 25px;
   display: block;
@@ -93,7 +94,7 @@ img {
   width: 150px;
   background-color: white;
 }
-.readMore{
+.readMore {
   border: 3px solid black;
   border-radius: 25px;
   padding: 8px;
@@ -108,16 +109,9 @@ img {
 
 
 /* Don't display mobile on desktop  */
-.header-mobile{
+.header-mobile, .caption-mobile {
 display: none;
 }
-
-.caption-mobile {
-
-  display: none;
-
-}
-
 
 
 @media (max-width: 320px) { /*breakpoint-mobile*/
@@ -139,7 +133,7 @@ display: none;
     color: white;
     font-weight: bold;
   }
-  .header{
+  .header {
     display: none;
   }
   .header-mobile {
@@ -147,7 +141,7 @@ display: none;
     display:block;
 
   }
-  .section{
+  .section {
     max-width: 98%;
 
 
@@ -156,7 +150,7 @@ display: none;
     width: 87%;
     margin-top: 10px;
     text-align: center;
-    margin-left: 70px;
+    margin-left: 80px;
   }
 
 
@@ -171,7 +165,7 @@ display: none;
   .header-moble {
     max-width: 900px;
   }
-  .readMore, .readMore1, .readMore2{
+  .readMore, .readMore1, .readMore2 {
     border: 3px solid black;
     border-radius: 30px;
     padding: 10px;
